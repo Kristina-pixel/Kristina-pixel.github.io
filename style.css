@@ -1,0 +1,47 @@
+body{
+    margin:0;
+    font: normal 16px Arial, Helvetica, sans-serif;
+    color:#333;
+  }
+  
+  #particles-js{
+    background: purple;
+    height:300px;
+  }
+  
+  #login{
+    background:#fff;
+    opacity:0.9;
+    padding:2em;
+    border:#ccc 2px solid;
+    position:absolute;
+    top:200px;
+    left:560px;
+    
+  }
+  
+  #login input[type="text"], #login input[type="password"]{
+    padding:7px;
+    margin-bottom:10px;
+    border:1px #ccc solid;
+  }
+
+  .container{
+      background-color: purple;
+      height: 300px;
+  }
+
+  .page-footer .copyright {
+    box-sizing: border-box;
+    background-color: purple;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    
+    
+}
+
+  
+  
