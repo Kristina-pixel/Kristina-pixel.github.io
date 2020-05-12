@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: url('../img/Sky.jpg') center center/cover repeat;
+    max-width: 960px; 
+    margin: 0 auto;     /* по центру */
+}
+
+div {
+     
+    padding: 5px 15px;
+}
+h1, h2, h3, h4 {
+    text-align: center;
+    margin: 5px;
+}
+
+.pan-fry p, 
+.carrots p,
+.onions p {    
+text-align: center;
+}
+
+.header {   /* стилизация шапки */
+    border-radius: 10px 10px 0 0;
+    margin-top: 20px;
+    background-color: gray;
+    min-height: 200px;
+    line-height: 200px;
+    text-align: center;
+    margin-bottom: 10px;    /* отступ */
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.86);    /* для работы во всех браузерах */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.86); 
+}
+
+.sidebar {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    padding-top: 20px;
+    
+}
+
+.sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  
+.sidebar a:hover { 
+    color: #f1f1f1;
+}
+
+.menu {   /* родительский элемент */  
+    display: block;  
+    padding: 13px 70px;  
+    margin: 0;
+    list-style-type: none; 
+}
+
+.sidebar-1 {
+    width: 130px;
+    position: fixed;
+    z-index: 1;
+    top: 200px;
+    right: 60px; 
+    background: #eee;
+    overflow-x: hidden;
+    padding: 8px 0; 
+}
+
+.container { 
+    text-align: justify;     /* текст по ширине */
+    margin-right: auto; /* !!! */
+    margin-left: auto; /* !!! */
+    width: 58em;    /* !!!!! */
+    background: gray;
+    margin-bottom: 10px;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.86);   
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.86); 
+}
+
+.center-img {
+    display: block;
+    margin: 0 auto;
+    border: 2px dotted blue;
+    border-radius: 150px;
+    box-shadow: 0px 0px 3px 3px blue;
+}
+
+.footer {
+    font-weight: bold;
+    min-height: 30px;
+    line-height: 30px;
+    text-align: center;
+    
+   
+    
+    
+}
