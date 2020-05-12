@@ -1,0 +1,30 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#particles-js{
+    background: purple; 
+    height: 600px;
+} 
+
+#container {
+    background-color: purple;
+    
+}
+
+.page-footer .copyright {
+  box-sizing: border-box;
+  background-color: purple;
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  
+  
+}
+
+
+
+
